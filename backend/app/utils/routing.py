@@ -1,7 +1,7 @@
 """On-demand OpenStreetMap/OSRM routing with an offline distance fallback."""
 from __future__ import annotations
 
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from math import asin, cos, radians, sin, sqrt
 from time import monotonic
 from urllib.parse import urlencode
@@ -54,20 +54,38 @@ def _straight_line_km(origin: tuple[float, float], destination: tuple[float, flo
     return 6371.0088 * 2 * asin(sqrt(value))
 
 
+def _route_option(route: dict, index: int) -> dict:
+    return {
+        "id": index,
+        "distance_km": round(route["distance"] / 1000, 2),
+        "duration_minutes": max(1, round(route["duration"] / 60)),
+        "geometry": route["geometry"],
+    }
+
+
 def build_route(start: str, end: str, route_type: str = "Fastest Route") -> dict:
     origin, destination = geocode(start), geocode(end)
     coordinates = f"{origin[1]},{origin[0]};{destination[1]},{destination[0]}"
+    preference = route_type.strip().casefold()
+    if preference not in {"fastest route", "shortest route"}:
+        raise ValueError("route_type must be 'Fastest Route' or 'Shortest Route'")
     try:
         payload = _json(f"https://router.project-osrm.org/route/v1/driving/{coordinates}?overview=full&geometries=geojson&alternatives=true")
-        route = payload["routes"][0]
-        distance_km = round(route["distance"] / 1000, 2)
-        duration_minutes = round(route["duration"] / 60)
+        options = [_route_option(item, index) for index, item in enumerate(payload["routes"])]
+        selected = min(
+            options,
+            key=lambda option: (option["duration_minutes"], option["distance_km"])
+            if preference == "fastest route"
+            else (option["distance_km"], option["duration_minutes"]),
+        )
+        distance_km = selected["distance_km"]
+        duration_minutes = selected["duration_minutes"]
         details = _traffic_estimate(duration_minutes)
         adjusted_duration = details["adjusted_duration_minutes"]
-        return {"source_coordinates": origin, "destination_coordinates": destination, "distance_km": distance_km, "duration_minutes": duration_minutes, "eta": (datetime.utcnow() + timedelta(minutes=adjusted_duration)).isoformat(), "geometry": route["geometry"], "route_type": route_type, "fallback": False, "toll_gates_estimate": max(0, round(distance_km / 120)), **details}
+        return {"source_coordinates": origin, "destination_coordinates": destination, "distance_km": distance_km, "duration_minutes": duration_minutes, "eta": (datetime.now(timezone.utc) + timedelta(minutes=adjusted_duration)).isoformat(), "geometry": selected["geometry"], "route_type": route_type, "fallback": False, "alternatives": [{key: value for key, value in option.items() if key != "geometry"} for option in options], "selected_alternative": selected["id"], "toll_gates_estimate": max(0, round(distance_km / 120)), **details}
     except Exception:
         distance_km = round(_straight_line_km(origin, destination), 2)
         duration_minutes = max(1, round(distance_km / 45 * 60))
         details = _traffic_estimate(duration_minutes)
         adjusted_duration = details["adjusted_duration_minutes"]
-        return {"source_coordinates": origin, "destination_coordinates": destination, "distance_km": distance_km, "duration_minutes": duration_minutes, "eta": (datetime.utcnow() + timedelta(minutes=adjusted_duration)).isoformat(), "geometry": {"type": "LineString", "coordinates": [[origin[1], origin[0]], [destination[1], destination[0]]]}, "route_type": route_type, "fallback": True, "toll_gates_estimate": max(0, round(distance_km / 120)), **details}
+        return {"source_coordinates": origin, "destination_coordinates": destination, "distance_km": distance_km, "duration_minutes": duration_minutes, "eta": (datetime.now(timezone.utc) + timedelta(minutes=adjusted_duration)).isoformat(), "geometry": {"type": "LineString", "coordinates": [[origin[1], origin[0]], [destination[1], destination[0]]]}, "route_type": route_type, "fallback": True, "alternatives": [{"id": 0, "distance_km": distance_km, "duration_minutes": duration_minutes}], "selected_alternative": 0, "toll_gates_estimate": max(0, round(distance_km / 120)), **details}
