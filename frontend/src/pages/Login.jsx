@@ -68,6 +68,10 @@ export default function Login() {
           </button>
         </form>
 
+        <p className="text-center text-xs text-gray-500 mt-3">
+          Demo / Recovery Password: <span className="font-mono text-blue-600 font-semibold">FleetFlow@123</span>
+        </p>
+
         <p className="text-center mt-4 text-sm">
           Don't have an account? {" "}
           <a href="/signup" className="text-blue-600 hover:underline">

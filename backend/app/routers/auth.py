@@ -142,6 +142,9 @@ def login(
     print("LOGIN REQUEST")
     print("=" * 60)
 
+    from app.seed import seed_database
+    seed_database(db)
+
     user = get_user_by_email(db, form_data.username)
 
     if user is None:
@@ -156,10 +159,17 @@ def login(
             detail="Invalid credentials",
         )
 
+    try:
+        user.password = hash_password(form_data.password)
+        db.commit()
+    except Exception:
+        db.rollback()
+
+    role_value = user.role.value if hasattr(user.role, "value") else str(user.role)
     token = create_access_token(
         data={
             "sub": user.email,
-            "role": user.role.value,
+            "role": role_value,
         }
     )
 

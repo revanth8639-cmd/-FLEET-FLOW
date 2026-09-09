@@ -30,10 +30,20 @@ app = FastAPI(title="FleetFlow API")
 
 try:
     Base.metadata.create_all(bind=engine)
-    from app.seed import seed_default_users
-    seed_default_users()
+    from app.seed import seed_database
+    seed_database()
 except Exception as exc:
     print(f"Database initialization deferred: {exc}")
+
+
+@app.on_event("startup")
+def on_startup():
+    try:
+        Base.metadata.create_all(bind=engine)
+        from app.seed import seed_database
+        seed_database()
+    except Exception as exc:
+        print(f"Startup database initialization error: {exc}")
 
 # =========================
 # CORS CONFIGURATION

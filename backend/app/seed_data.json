@@ -1,0 +1,2440 @@
+{
+  "users": [
+    {
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "full_name": "Revanth Reddy",
+      "email": "revanth8638@gmail.com",
+      "password": "$2b$12$yDDJmM9PMLHufR7E.Zs/Qe4Eu3gVFEjiyz44RVE.deBfaCvqHD5Dq",
+      "phone": "8639526641",
+      "role": "FleetManager",
+      "created_at": "2026-08-03T14:56:54.755970",
+      "updated_at": "2026-08-03T14:56:54.755981",
+      "email_verified": false,
+      "verification_code": null,
+      "verification_code_expires_at": null,
+      "address": null
+    },
+    {
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "full_name": "Revanth Reddy",
+      "email": "revanth8639@gmail.com",
+      "password": "$2b$12$mI5UMw8pnFZ0FyMPQ9ejqeELhKfRK0MCZmbpEXhjh63jSVa/HseA6",
+      "phone": "8639526641",
+      "role": "FleetManager",
+      "created_at": "2026-08-04T10:38:12.484061",
+      "updated_at": "2026-08-04T10:38:12.484066",
+      "email_verified": false,
+      "verification_code": null,
+      "verification_code_expires_at": null,
+      "address": null
+    },
+    {
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "full_name": "manohar",
+      "email": "manoharmanohar52808@gmail.com",
+      "password": "$2b$12$86lngwZnVce8XOQrOzDOPuftZryj3478FWaWBnLVj/IhH3v6wjvZ.",
+      "phone": "8978456290",
+      "role": "Driver",
+      "created_at": "2026-08-10T17:14:44.928233",
+      "updated_at": "2026-08-10T17:14:44.928242",
+      "email_verified": false,
+      "verification_code": null,
+      "verification_code_expires_at": null,
+      "address": null
+    },
+    {
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "full_name": "Uday Kiran Reddy",
+      "email": "vennapusauday.aiml@sandipuniversity.edu.in",
+      "password": "$2b$12$bMJU4rEYKyg5LT7WeJSpDuFKrMyWfOis.lODusPCOLLM5sdIqrP6G",
+      "phone": "7416818182",
+      "role": "Admin",
+      "created_at": "2026-08-26T15:40:36.760652",
+      "updated_at": "2026-08-26T15:40:36.760657",
+      "email_verified": false,
+      "verification_code": null,
+      "verification_code_expires_at": null,
+      "address": null
+    },
+    {
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "full_name": "Dhanireddy",
+      "email": "reddydhani8639@gmail.com",
+      "password": "$2b$12$Ua.KkI2TCJ1VYFbYwXXq.OoYqBt05zD4P7Qax90lxeSOjsRFpgXW6",
+      "phone": "8639526641",
+      "role": "Dispatcher",
+      "created_at": "2026-08-26T15:44:38.085846",
+      "updated_at": "2026-08-26T15:44:38.085850",
+      "email_verified": false,
+      "verification_code": null,
+      "verification_code_expires_at": null,
+      "address": null
+    },
+    {
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "full_name": "Kiran Reddy",
+      "email": "vukreddy943@gmail.com",
+      "password": "$2b$12$Ww6p7Wk1sfzBPYXOp89nJOhNhRTyrMHnt9uDty17yhsBUqMdC5Oii",
+      "phone": "7416818182",
+      "role": "Driver",
+      "created_at": "2026-08-29T13:10:59.220161",
+      "updated_at": "2026-08-29T13:10:59.220164",
+      "email_verified": false,
+      "verification_code": null,
+      "verification_code_expires_at": null,
+      "address": null
+    }
+  ],
+  "vehicles": [
+    {
+      "vehicle_id": "80fc44dd-b051-4b5d-ba6c-db1c9cc5953f",
+      "registration_number": "AP40AJ2567",
+      "vehicle_type": "Container",
+      "capacity": "40 Tons",
+      "fuel_type": "Diesel",
+      "status": "Available",
+      "created_at": "2026-08-28T04:46:06.900086",
+      "brand": null,
+      "model": null,
+      "manufacture_year": null,
+      "assigned_driver_id": null
+    },
+    {
+      "vehicle_id": "69e0ccec-aa38-449a-991b-39bbac7dedcc",
+      "registration_number": "AP40NP6641",
+      "vehicle_type": "Container",
+      "capacity": "43 Tons",
+      "fuel_type": "Diesel",
+      "status": "Available",
+      "created_at": "2026-09-01T14:51:11.208191",
+      "brand": null,
+      "model": null,
+      "manufacture_year": null,
+      "assigned_driver_id": null
+    },
+    {
+      "vehicle_id": "e8730316-9126-485f-9dac-ceca230b2ab3",
+      "registration_number": "AP39HP9296",
+      "vehicle_type": "Truck",
+      "capacity": "10 Toons",
+      "fuel_type": "Diesel",
+      "status": "Available",
+      "created_at": "2026-08-10T11:29:33.777825",
+      "brand": null,
+      "model": null,
+      "manufacture_year": null,
+      "assigned_driver_id": null
+    },
+    {
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "registration_number": "AP39AB1235",
+      "vehicle_type": "Truck",
+      "capacity": "10 Tons",
+      "fuel_type": "Diesel",
+      "status": "Available",
+      "created_at": "2026-08-01T11:12:01.756063",
+      "brand": null,
+      "model": null,
+      "manufacture_year": null,
+      "assigned_driver_id": null
+    },
+    {
+      "vehicle_id": "9c23be6e-e1e4-48d3-b8d2-76be0456af32",
+      "registration_number": "AP04BP2398",
+      "vehicle_type": "Container",
+      "capacity": "45 Tons",
+      "fuel_type": "Diesel",
+      "status": "Maintenance",
+      "created_at": "2026-08-28T04:54:40.366708",
+      "brand": null,
+      "model": null,
+      "manufacture_year": null,
+      "assigned_driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7"
+    },
+    {
+      "vehicle_id": "97f9f879-0468-480c-bc9c-c38d79d004fd",
+      "registration_number": "AP40DP8639",
+      "vehicle_type": "Truck",
+      "capacity": "35 Tons",
+      "fuel_type": "Electric",
+      "status": "In Transit",
+      "created_at": "2026-08-28T04:53:41.603354",
+      "brand": null,
+      "model": null,
+      "manufacture_year": null,
+      "assigned_driver_id": null
+    }
+  ],
+  "drivers": [
+    {
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "user_id": null,
+      "name": "Ramesh Kumar",
+      "phone": "9876543210",
+      "license_number": "AP20260001",
+      "status": "Available",
+      "created_at": "2026-08-01T13:26:09.152497",
+      "vehicle_id": null
+    },
+    {
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "user_id": null,
+      "name": "Hemanth",
+      "phone": "7416818182",
+      "license_number": "AP20433001",
+      "status": "Available",
+      "created_at": "2026-08-28T04:54:54.558393",
+      "vehicle_id": "9c23be6e-e1e4-48d3-b8d2-76be0456af32"
+    },
+    {
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "name": "manohar",
+      "phone": "8978456290",
+      "license_number": "AP202401563",
+      "status": "Available",
+      "created_at": "2026-08-10T17:50:47.909252",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79"
+    },
+    {
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "name": "Kiran Reddy",
+      "phone": "7416818182",
+      "license_number": "AP202401365",
+      "status": "Available",
+      "created_at": "2026-08-29T14:44:15.545684",
+      "vehicle_id": null
+    },
+    {
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "user_id": null,
+      "name": "Revanth",
+      "phone": "8639526641",
+      "license_number": "AP987654321",
+      "status": "Available",
+      "created_at": "2026-08-27T15:24:55.778506",
+      "vehicle_id": null
+    },
+    {
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "user_id": null,
+      "name": "Nagendra ",
+      "phone": "6304978106",
+      "license_number": "AP20423601",
+      "status": "On Trip",
+      "created_at": "2026-08-28T05:28:13.491763",
+      "vehicle_id": null
+    }
+  ],
+  "shipments": [
+    {
+      "shipment_id": "4cbee132-e73e-4060-946a-75a5d3402974",
+      "vehicle_id": null,
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "tracking_number": "SHIP001",
+      "source": "Hyderabad",
+      "destination": "Bangalore",
+      "status": "Delivered",
+      "eta": "2026-08-02",
+      "created_at": "2026-07-31T15:56:15.558921",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "00394ed2-f0a6-448b-89b3-23642a34160b",
+      "vehicle_id": null,
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "tracking_number": "SHIP002",
+      "source": "Proddatur",
+      "destination": "Kadapa",
+      "status": "Delivered",
+      "eta": "2026-08-06",
+      "created_at": "2026-08-04T12:45:46.121683",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "f59304b4-03f0-4db2-b0cd-42c6a37afa79",
+      "vehicle_id": null,
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "tracking_number": "SHIP003",
+      "source": "Allagadda",
+      "destination": "mydukuru",
+      "status": "Delivered",
+      "eta": "2026-08-27",
+      "created_at": "2026-08-28T12:30:24.076451",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "e32ee02d-a6de-4a58-bfdf-d36c1755c341",
+      "vehicle_id": null,
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "tracking_number": "SHIP005",
+      "source": "Jammalamadugu",
+      "destination": "Pune",
+      "status": "Delivered",
+      "eta": "2026-08-29",
+      "created_at": "2026-08-29T16:15:18.341845",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "9fac4352-290d-402f-ad83-15dce13c9c4c",
+      "vehicle_id": null,
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "tracking_number": "SHIP006",
+      "source": "Vijayawada",
+      "destination": "Tirupati",
+      "status": "Delivered",
+      "eta": "2026-09-01",
+      "created_at": "2026-09-01T14:52:29.354885",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "7aa81b4c-0b72-4c4c-9a8e-1c6f6f6ef291",
+      "vehicle_id": null,
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "tracking_number": "SHIP004",
+      "source": "Badvel",
+      "destination": "Nalgonda",
+      "status": "Delivered",
+      "eta": "2026-08-28",
+      "created_at": "2026-08-28T12:31:46.093788",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "4b97ab02-a476-4f9c-b071-908c2c76605a",
+      "vehicle_id": null,
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "tracking_number": "SHIP007",
+      "source": "Proddatur",
+      "destination": "Visakhapatnam",
+      "status": "Delivered",
+      "eta": "2026-09-02",
+      "created_at": "2026-09-02T12:15:20.988112",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    },
+    {
+      "shipment_id": "bc9337c5-249f-47f0-8f6e-183f332c0e99",
+      "vehicle_id": null,
+      "driver_id": null,
+      "tracking_number": "SHIP008",
+      "source": "Ongole",
+      "destination": "Nellore",
+      "status": "Delayed",
+      "eta": "2026-09-05",
+      "created_at": "2026-09-05T13:11:43.328958",
+      "customer_name": null,
+      "shipment_weight": null,
+      "expected_delivery_at": null
+    }
+  ],
+  "trips": [
+    {
+      "trip_id": "2b178a09-ce2c-424a-89fb-5f87d3436539",
+      "vehicle_id": "97f9f879-0468-480c-bc9c-c38d79d004fd",
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "shipment_id": "bc9337c5-249f-47f0-8f6e-183f332c0e99",
+      "start_location": "Ongole",
+      "end_location": "Nellore",
+      "start_time": "2026-09-05T13:14:06.208913",
+      "end_time": null,
+      "status": "In Progress",
+      "distance_km": 128.65,
+      "actual_distance_km": null,
+      "duration_minutes": 94,
+      "route_type": "Fastest Route",
+      "eta": "2026-09-07T12:47:50.044849",
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "7b9ec0ac-6faa-4ee1-994b-c0e5ff02f9e7",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "shipment_id": "4cbee132-e73e-4060-946a-75a5d3402974",
+      "start_location": "Hyderabad",
+      "end_location": "Bangalore",
+      "start_time": "2026-08-21T10:41:07.101375",
+      "end_time": "2026-08-21T10:41:08.996587",
+      "status": "Completed",
+      "distance_km": null,
+      "actual_distance_km": null,
+      "duration_minutes": null,
+      "route_type": null,
+      "eta": null,
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "shipment_id": "00394ed2-f0a6-448b-89b3-23642a34160b",
+      "start_location": "proddatur",
+      "end_location": "kadapa",
+      "start_time": "2026-08-28T12:29:29.654850",
+      "end_time": "2026-08-28T12:29:32.908406",
+      "status": "Completed",
+      "distance_km": 52.35,
+      "actual_distance_km": null,
+      "duration_minutes": 41,
+      "route_type": "Fastest Route",
+      "eta": "2026-08-26T21:46:59.008094",
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "0d790a49-83f4-4331-a050-db7cfdf27299",
+      "vehicle_id": "80fc44dd-b051-4b5d-ba6c-db1c9cc5953f",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "shipment_id": "f59304b4-03f0-4db2-b0cd-42c6a37afa79",
+      "start_location": "Allagadda",
+      "end_location": "mydukuru",
+      "start_time": "2026-08-29T16:16:03.161733",
+      "end_time": "2026-08-31T12:17:53.551186",
+      "status": "Completed",
+      "distance_km": 52.43,
+      "actual_distance_km": null,
+      "duration_minutes": 39,
+      "route_type": "Fastest Route",
+      "eta": "2026-08-28T19:11:15.629209",
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "e0178854-739f-48c7-8403-d4e2fcf5d8ab",
+      "vehicle_id": "9c23be6e-e1e4-48d3-b8d2-76be0456af32",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "shipment_id": "e32ee02d-a6de-4a58-bfdf-d36c1755c341",
+      "start_location": "Jammalamadugu",
+      "end_location": "Pune",
+      "start_time": "2026-08-31T12:17:57.531261",
+      "end_time": "2026-09-01T14:46:06.275877",
+      "status": "Completed",
+      "distance_km": null,
+      "actual_distance_km": null,
+      "duration_minutes": null,
+      "route_type": "Fastest Route",
+      "eta": null,
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "ab2a769c-6f11-4f08-b078-ca01b3f08dff",
+      "vehicle_id": "69e0ccec-aa38-449a-991b-39bbac7dedcc",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "shipment_id": "9fac4352-290d-402f-ad83-15dce13c9c4c",
+      "start_location": "Vijayawada",
+      "end_location": "Tirupati",
+      "start_time": "2026-09-02T12:14:34.721845",
+      "end_time": "2026-09-02T12:14:37.252402",
+      "status": "Completed",
+      "distance_km": null,
+      "actual_distance_km": null,
+      "duration_minutes": null,
+      "route_type": "Fastest Route",
+      "eta": null,
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "13ff480c-fb98-4b61-be95-901e52a68023",
+      "vehicle_id": "e8730316-9126-485f-9dac-ceca230b2ab3",
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "shipment_id": "7aa81b4c-0b72-4c4c-9a8e-1c6f6f6ef291",
+      "start_location": "Badvel",
+      "end_location": "Nalgonda",
+      "start_time": "2026-09-01T14:53:56.511376",
+      "end_time": "2026-09-05T13:05:41.413906",
+      "status": "Completed",
+      "distance_km": 302.62,
+      "actual_distance_km": null,
+      "duration_minutes": 230,
+      "route_type": "Fastest Route",
+      "eta": "2026-09-03T01:42:24.266014",
+      "remaining_distance_km": null
+    },
+    {
+      "trip_id": "f98780fe-763c-4cb2-a3fc-e68e0055c30e",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "shipment_id": "4b97ab02-a476-4f9c-b071-908c2c76605a",
+      "start_location": "Proddatur",
+      "end_location": "Vishakapatnam",
+      "start_time": "2026-09-03T13:05:25.022474",
+      "end_time": "2026-09-05T13:10:42.617903",
+      "status": "Completed",
+      "distance_km": null,
+      "actual_distance_km": null,
+      "duration_minutes": null,
+      "route_type": "Fastest Route",
+      "eta": null,
+      "remaining_distance_km": null
+    }
+  ],
+  "attendance": [
+    {
+      "attendance_id": "ffe1ee05-68d7-455c-9d98-6837ff68a392",
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "check_in": "2026-08-01T09:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-01"
+    },
+    {
+      "attendance_id": "64156204-680e-4206-8c59-22ed55204e38",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "check_in": "2026-08-14T20:12:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-14"
+    },
+    {
+      "attendance_id": "fa17031c-fca1-4387-82d1-5768e1b72b92",
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "check_in": "2026-08-28T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-28"
+    },
+    {
+      "attendance_id": "f271d2cf-65bf-4836-8dc0-a3111bf76bee",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "check_in": "2026-08-28T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-28"
+    },
+    {
+      "attendance_id": "ae654872-e4ca-40a0-82f4-38e42893acc7",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "check_in": "2026-08-29T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-29"
+    },
+    {
+      "attendance_id": "6c86c8b9-b1f7-43a3-926f-90ef182508d7",
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "check_in": "2026-08-31T00:00:00",
+      "check_out": null,
+      "status": "Leave",
+      "date": "2026-08-31"
+    },
+    {
+      "attendance_id": "e3c8ff62-5dff-400a-b33a-fefce80b0084",
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "check_in": "2026-08-31T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-31"
+    },
+    {
+      "attendance_id": "bc78670d-e90b-4c01-a245-b973f49831d1",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "check_in": "2026-08-31T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-31"
+    },
+    {
+      "attendance_id": "1c263ecd-e2c1-4292-ac48-6547f00e9e37",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "check_in": "2026-08-31T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-08-31"
+    },
+    {
+      "attendance_id": "9f1148a1-f8cf-4047-8824-f3139f113a20",
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "check_in": "2026-09-01T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "attendance_id": "93e88be7-4d99-4e00-8e63-f0388bd8911a",
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "check_in": "2026-09-01T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "attendance_id": "c398745a-da6c-451a-933c-7c787759ec04",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "check_in": "2026-09-01T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "attendance_id": "fc2a3aff-f97d-4683-8697-765cb697c448",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "check_in": "2026-09-01T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "attendance_id": "90068f76-c6b9-4737-b119-53d35a4b573e",
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "check_in": "2026-09-01T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "attendance_id": "a274b6d7-3b14-4f45-bb5f-96c53cb31ced",
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "check_in": "2026-09-01T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-01"
+    },
+    {
+      "attendance_id": "623b297d-b406-4b21-a19d-7fd105f55bde",
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "check_in": "2026-09-02T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-02"
+    },
+    {
+      "attendance_id": "ddef4e23-7ad5-48f6-9a71-25c7a9b84729",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "check_in": "2026-09-02T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-02"
+    },
+    {
+      "attendance_id": "8af479d3-409f-4b66-bd20-4c2f6e8d0f75",
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "check_in": "2026-09-03T00:00:00",
+      "check_out": null,
+      "status": "Leave",
+      "date": "2026-09-03"
+    },
+    {
+      "attendance_id": "df9ded3d-ce6e-4dcf-8082-868c4b4f5dc3",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "check_in": "2026-09-03T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-03"
+    },
+    {
+      "attendance_id": "108a21eb-5af1-4252-a729-cbfbc7b5a60c",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "check_in": "2026-09-03T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-03"
+    },
+    {
+      "attendance_id": "9344002b-e453-4a86-92a9-ca3f281d7365",
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "check_in": "2026-09-03T00:00:00",
+      "check_out": null,
+      "status": "Absent",
+      "date": "2026-09-03"
+    },
+    {
+      "attendance_id": "11c72f59-2e5d-413d-bb89-8f49ef05a1ad",
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "check_in": "2026-09-03T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-03"
+    },
+    {
+      "attendance_id": "d4d1324f-c354-43e5-b234-ed83c156496d",
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "check_in": "2026-09-03T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-03"
+    },
+    {
+      "attendance_id": "56345c12-e560-43f0-ba72-b0edf88a38fc",
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "check_in": "2026-09-05T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-05"
+    },
+    {
+      "attendance_id": "8bc42aa4-ac0c-4295-b0cd-2d4fbef9d654",
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "check_in": "2026-09-05T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-05"
+    },
+    {
+      "attendance_id": "bbc3d742-ffa2-490a-8921-9526ee61c386",
+      "driver_id": "b9a6d64a-a57f-45ad-8292-4f1b10f8f8d9",
+      "check_in": "2026-09-07T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "attendance_id": "0eb7e3b2-b8ae-4e81-a60c-e01be8414b41",
+      "driver_id": "68e44e79-6b17-4117-b72d-b4c1b89ad8c7",
+      "check_in": "2026-09-07T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "attendance_id": "eb2e2be6-bbb2-4d55-9d55-82e594337726",
+      "driver_id": "3c4164d3-133e-4711-93db-115ad295478e",
+      "check_in": "2026-09-07T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "attendance_id": "58575c70-146b-4d17-9de5-dba38759da64",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "check_in": "2026-09-07T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "attendance_id": "9a9e84c9-8766-40aa-822d-cba2eec85db7",
+      "driver_id": "d97a46a8-c59f-4bbf-8914-cbbc8707ae85",
+      "check_in": "2026-09-07T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-07"
+    },
+    {
+      "attendance_id": "4433f368-021c-4cb5-8a6b-bbc33ab2f4b8",
+      "driver_id": "45243140-5694-434e-816f-6bc238986524",
+      "check_in": "2026-09-07T00:00:00",
+      "check_out": null,
+      "status": "Present",
+      "date": "2026-09-07"
+    }
+  ],
+  "vehicle_maintenance": [
+    {
+      "maintenance_id": "f362ccbf-24bf-4e5c-b174-dabf852cd8ce",
+      "vehicle_id": "e8730316-9126-485f-9dac-ceca230b2ab3",
+      "service_type": "Oil change",
+      "description": "",
+      "service_date": "2026-08-10T14:44:31.371068",
+      "next_service_date": "2026-08-21T20:14:00",
+      "cost": 12580.0,
+      "status": "Completed"
+    },
+    {
+      "maintenance_id": "055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "service_type": "servicing",
+      "description": "",
+      "service_date": "2026-08-26T15:01:07.315234",
+      "next_service_date": "2026-08-26T20:30:00",
+      "cost": 5500.0,
+      "status": "Completed"
+    },
+    {
+      "maintenance_id": "68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "vehicle_id": "97f9f879-0468-480c-bc9c-c38d79d004fd",
+      "service_type": "Changing tyres",
+      "description": "",
+      "service_date": "2026-08-28T05:29:47.231481",
+      "next_service_date": "2026-08-24T10:59:00",
+      "cost": 36258.0,
+      "status": "Completed"
+    },
+    {
+      "maintenance_id": "233928dc-762b-4ee4-9d1d-e5118cce3545",
+      "vehicle_id": "9c23be6e-e1e4-48d3-b8d2-76be0456af32",
+      "service_type": "Break Failure",
+      "description": "",
+      "service_date": "2026-09-05T18:42:00",
+      "next_service_date": "2026-09-05T18:42:00",
+      "cost": 28352.0,
+      "status": "In Progress"
+    }
+  ],
+  "fuel_records": [
+    {
+      "fuel_id": "cb810435-4e34-4f24-b0e7-503e5f41c42b",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "fuel_amount": 35.0,
+      "fuel_cost": 3500.0,
+      "fuel_station": "near kadapa",
+      "filled_by": "manohar",
+      "fuel_date": "2026-08-26T18:56:00",
+      "mileage": null,
+      "refill_date": null
+    },
+    {
+      "fuel_id": "7aec8c4f-9cef-48ff-b945-3e188d90111c",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "fuel_amount": 380.0,
+      "fuel_cost": 38000.0,
+      "fuel_station": "NA",
+      "filled_by": null,
+      "fuel_date": "2026-08-12T21:12:00",
+      "mileage": null,
+      "refill_date": null
+    },
+    {
+      "fuel_id": "0a1a98f9-fe8a-4dea-a5c2-b11aa8823753",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "fuel_amount": 225.0,
+      "fuel_cost": 22500.0,
+      "fuel_station": "NA",
+      "filled_by": null,
+      "fuel_date": "2026-08-31T17:50:00",
+      "mileage": null,
+      "refill_date": null
+    },
+    {
+      "fuel_id": "a8565ce4-0a77-4283-80e9-4a4d4e06baff",
+      "vehicle_id": "9c23be6e-e1e4-48d3-b8d2-76be0456af32",
+      "fuel_amount": 120.0,
+      "fuel_cost": 12000.0,
+      "fuel_station": "NA",
+      "filled_by": "Kiran Reddy",
+      "fuel_date": "2026-08-31T19:50:00",
+      "mileage": null,
+      "refill_date": null
+    },
+    {
+      "fuel_id": "0dcb8e53-2aad-4f11-8699-4714699994c3",
+      "vehicle_id": "80fc44dd-b051-4b5d-ba6c-db1c9cc5953f",
+      "fuel_amount": 125.0,
+      "fuel_cost": 12500.0,
+      "fuel_station": "Allagadda",
+      "filled_by": "manohar",
+      "fuel_date": "2026-08-29T21:11:00",
+      "mileage": null,
+      "refill_date": null
+    },
+    {
+      "fuel_id": "0317fa27-0613-46bd-976b-cea51452d61a",
+      "vehicle_id": "e8730316-9126-485f-9dac-ceca230b2ab3",
+      "fuel_amount": 265.0,
+      "fuel_cost": 26500.0,
+      "fuel_station": "Badvel",
+      "filled_by": "Hemanth",
+      "fuel_date": "2026-09-01T20:50:00",
+      "mileage": null,
+      "refill_date": null
+    }
+  ],
+  "leave_requests": [
+    {
+      "leave_id": "f14b96ee-d094-4e20-ab5b-12b3a73d6f22",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "leave_date": "2026-08-12",
+      "reason": "health issue suffering from fever",
+      "status": "Rejected",
+      "reviewed_by": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "created_at": "2026-08-10T17:50:47.913176"
+    },
+    {
+      "leave_id": "285c3090-4812-4584-9715-81cea6e71595",
+      "driver_id": "5f141cfc-3848-4337-9e00-59eec4d587a3",
+      "leave_date": "2026-08-26",
+      "reason": "Health issue",
+      "status": "Approved",
+      "reviewed_by": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "created_at": "2026-08-26T15:03:09.351546"
+    }
+  ],
+  "gps_tracking": [
+    {
+      "tracking_id": "d27ae412-649f-4476-ad33-4f5a8599a2c7",
+      "vehicle_id": "b84072f3-0a48-4973-aa6e-b51be31b1b79",
+      "latitude": 17.385,
+      "longitude": 78.4867,
+      "speed": 45.5,
+      "timestamp": "2026-08-01T11:13:56.570883"
+    }
+  ],
+  "notifications": [
+    {
+      "notification_id": "c92a28a6-8f22-42aa-86c0-7f1001b26b0c",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:53:02.326302",
+      "type": "route"
+    },
+    {
+      "notification_id": "59def377-9e76-4148-a920-ed50b479ddf7",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:53:02.330811",
+      "type": "route"
+    },
+    {
+      "notification_id": "b344dcf4-d403-46f0-8e17-2cbc74a3becc",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T15:14:46.249534",
+      "type": "route"
+    },
+    {
+      "notification_id": "77f39e47-e428-4dd5-9b4b-609ba1e7e86d",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T15:14:46.249747",
+      "type": "route"
+    },
+    {
+      "notification_id": "45b60505-9859-43b9-a2ff-619e849da9ab",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has started.",
+      "is_read": false,
+      "created_at": "2026-09-03T13:05:25.025658",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "53f18544-1e77-40ea-a766-b532d004426e",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has started.",
+      "is_read": false,
+      "created_at": "2026-09-03T13:05:25.025916",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "d6c2163c-cfb7-4647-92f8-90a7d8ea72e4",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:53:02.330686",
+      "type": "route"
+    },
+    {
+      "notification_id": "cfddefec-a238-4221-bf2d-6ca6f50092b1",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T15:14:46.249700",
+      "type": "route"
+    },
+    {
+      "notification_id": "b6c1af67-1aa0-482e-bb3a-4d2dc6d1083b",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Upcoming maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 requires servicing by 2026-08-26T20:30:00.",
+      "is_read": true,
+      "created_at": "2026-08-26T16:41:43.420049",
+      "type": "info"
+    },
+    {
+      "notification_id": "2c4d8453-503e-44db-a499-2e6070cac433",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Driver assignment updated",
+      "message": "Driver Hemanth was assigned to vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32.",
+      "is_read": false,
+      "created_at": "2026-08-28T05:27:33.021837",
+      "type": "assignment"
+    },
+    {
+      "notification_id": "4e0aa752-d3c2-42df-a857-0aadd2ae9467",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has started.",
+      "is_read": true,
+      "created_at": "2026-09-03T13:05:25.025857",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "46f4a34e-b48c-46a5-a4c7-636efa5110e7",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip delivered",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:05:41.415966",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "2d334cfe-ad92-47f0-a6f1-ee1a74786bf2",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip delivered",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:05:41.416177",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "2a1ab2d2-1d39-4fd2-9a48-e9aa42be4481",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip delivered",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:10:42.619622",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "d444a555-492c-4d3e-82e9-8af20b838307",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip delivered",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:10:42.619703",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "f4065fed-f7f8-410b-b53b-805e54f2bd58",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Maintenance scheduled",
+      "message": "Break Failure maintenance is scheduled for vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:13:08.043743",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "f99cca6c-6900-458c-a93d-ae45c285d569",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip 2b178a09-ce2c-424a-89fb-5f87d3436539 has started.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:14:06.210586",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "816cf732-75cd-4600-9a40-a19d2d1de254",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip 2b178a09-ce2c-424a-89fb-5f87d3436539 has started.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:14:06.210695",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "1a05c454-6b4f-44d5-9ac6-0ae8913c40de",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:24:45.694989",
+      "type": "route"
+    },
+    {
+      "notification_id": "0a0d4cef-fdd4-4e01-9b9d-9e458ba6ad7e",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:24:45.695126",
+      "type": "route"
+    },
+    {
+      "notification_id": "f448244c-1773-4966-b59c-19e354715ad6",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:28:47.241469",
+      "type": "route"
+    },
+    {
+      "notification_id": "5c2f8fd7-32c0-43d9-854b-b91b6572741d",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:28:47.241710",
+      "type": "route"
+    },
+    {
+      "notification_id": "66abb428-5579-4cb7-8457-5f63c6e7d18c",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:29:05.069616",
+      "type": "route"
+    },
+    {
+      "notification_id": "3253c687-8beb-44f0-9dc5-1da7fb6b0fac",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:29:05.069727",
+      "type": "route"
+    },
+    {
+      "notification_id": "85bc7c35-4d42-43c1-9ec4-d7d978e72f2e",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:29:11.451182",
+      "type": "route"
+    },
+    {
+      "notification_id": "716b08d3-730e-4979-b860-6f0bc2d3e7ed",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Overdue maintenance: f362ccbf-24bf-4e5c-b174-dabf852cd8ce",
+      "message": "Vehicle e8730316-9126-485f-9dac-ceca230b2ab3 requires Oil change by 2026-08-21T20:14:00.",
+      "is_read": false,
+      "created_at": "2026-08-27T13:00:00.280696",
+      "type": "info"
+    },
+    {
+      "notification_id": "e497fb78-6224-46e0-af90-6e8b60ffbf1e",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:53:02.330446",
+      "type": "route"
+    },
+    {
+      "notification_id": "c0b7bea6-fcd9-4664-a523-e02eb958247d",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T15:14:46.249647",
+      "type": "route"
+    },
+    {
+      "notification_id": "0b3dfe05-24cf-4ade-aa0f-fc16566ac198",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has started.",
+      "is_read": true,
+      "created_at": "2026-09-03T13:05:25.025792",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "26ce7df6-fa78-4c99-94d6-87a141661c8b",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip delivered",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:05:41.416101",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "8f1a3c28-f0e0-4c24-a1c7-2662e4764413",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip delivered",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:10:42.619673",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "7580e84e-a720-42d1-b278-6123cd826d63",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Maintenance scheduled",
+      "message": "Break Failure maintenance is scheduled for vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:13:08.043813",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "9e65025e-b9c6-4c79-8108-c5ee3d189b22",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip 2b178a09-ce2c-424a-89fb-5f87d3436539 has started.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:14:06.210657",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "ea410703-4286-4ee8-9c29-d47a3212897d",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:24:45.695092",
+      "type": "route"
+    },
+    {
+      "notification_id": "e1604505-8788-41a5-819e-648d344ab2c8",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:53:08.555838",
+      "type": "route"
+    },
+    {
+      "notification_id": "06884898-4c62-4541-b3df-eda2c5b92678",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "5-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance in 5 days (2026-08-31T15:01:07.315234).",
+      "is_read": false,
+      "created_at": "2026-08-28T06:04:12.072026",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "5abeffcf-74e1-416b-a6d1-5b19ba453b51",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:53:08.556094",
+      "type": "route"
+    },
+    {
+      "notification_id": "5c281bd5-291d-41d6-b3b7-6f29497e97d0",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T15:13:24.339966",
+      "type": "route"
+    },
+    {
+      "notification_id": "4ce55d2d-81cb-4097-a8b4-d9005e04c1a7",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "5-day maintenance reminder: 68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "message": "Vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd is due for Changing tyres maintenance in 5 days (2026-09-02T05:29:47.231481).",
+      "is_read": false,
+      "created_at": "2026-08-28T12:04:47.608993",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "20f8ae84-c7fb-40c9-92ed-25451b2d369a",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T15:13:24.340201",
+      "type": "route"
+    },
+    {
+      "notification_id": "1d729586-3da6-4225-a02c-e791b4cd97d7",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has started.",
+      "is_read": false,
+      "created_at": "2026-08-28T12:29:29.660680",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "97fb8007-7249-49cd-af84-1b505e9c14ab",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has started.",
+      "is_read": false,
+      "created_at": "2026-08-28T12:29:29.660724",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "60366dcb-6828-4cb4-8c1d-10131c856a39",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "5-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance in 5 days (2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-28T06:04:12.072019",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "f9eccdcc-f120-462d-b42a-b62978565d8c",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip delivered",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has delivered.",
+      "is_read": false,
+      "created_at": "2026-08-28T12:29:32.910673",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "3cdf9370-a9ce-40b1-afcc-551e8c218d0c",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip delivered",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has delivered.",
+      "is_read": false,
+      "created_at": "2026-08-28T12:29:32.910714",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "952897b9-3386-4a3f-9e4a-3ff0b7d11082",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 0d790a49-83f4-4331-a050-db7cfdf27299 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-08-28T12:57:15.660136",
+      "type": "route"
+    },
+    {
+      "notification_id": "a6cf02ca-3c84-44ec-9bc3-8c0e682c949d",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Trip started",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has started.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:29:29.660743",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "a7a419e1-202b-4c6e-a561-6a56e78bb88c",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 0d790a49-83f4-4331-a050-db7cfdf27299 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-08-28T12:57:15.660337",
+      "type": "route"
+    },
+    {
+      "notification_id": "c1df2002-ad30-483a-9df7-fd2c86132e55",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:53:08.556038",
+      "type": "route"
+    },
+    {
+      "notification_id": "048e8df3-0c89-4f82-aaff-91063c8fdbc2",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "title": "Welcome",
+      "message": "Your account has been created successfully.",
+      "is_read": false,
+      "created_at": "2026-08-29T13:10:59.238500",
+      "type": "info"
+    },
+    {
+      "notification_id": "ac057ba6-edaa-40e5-8066-b290323d84f2",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T15:13:24.340149",
+      "type": "route"
+    },
+    {
+      "notification_id": "4efd89d4-d62b-4f6b-9482-904cbc782c0d",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Shipment Delivered",
+      "message": "Shipment SHIP002 is now delivered.",
+      "is_read": false,
+      "created_at": "2026-08-29T16:12:21.059407",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "2127c048-de8d-4642-a057-dba1a502a1c7",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Shipment Delivered",
+      "message": "Shipment SHIP002 is now delivered.",
+      "is_read": false,
+      "created_at": "2026-08-29T16:12:21.059448",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "6eef0686-a243-41c1-a03f-9dc49a740324",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:53:08.555972",
+      "type": "route"
+    },
+    {
+      "notification_id": "9016069f-8c3d-4d98-9e07-fc2d25596648",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has started.",
+      "is_read": false,
+      "created_at": "2026-08-29T16:16:03.163982",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "6efc4f2a-020f-4e13-a99b-5a2638a60575",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has started.",
+      "is_read": false,
+      "created_at": "2026-08-29T16:16:03.164023",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "ea10344d-d787-4368-b394-41fab9680fa8",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T15:13:24.340088",
+      "type": "route"
+    },
+    {
+      "notification_id": "ac76c6c0-1735-4802-981a-0235d0026683",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP003 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-08-29T16:20:00.046907",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "7300c5e2-e5e5-4056-b75d-44d8eec3dafc",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP003 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-08-29T16:20:00.046962",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "2ecd7c1d-efe4-4609-a9f3-db5983043a6a",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "1-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance tomorrow (2026-08-31T15:01:07.315234).",
+      "is_read": false,
+      "created_at": "2026-08-30T15:03:07.281682",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "279ba5dd-d41d-4909-93d3-d034b3c6f7fb",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip delivered",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has delivered.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:17:53.556982",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "6f9c264f-becc-4566-82c7-98a9c0470064",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "5-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance in 5 days (2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-28T06:04:12.072029",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "f7ed87b9-0723-4fe2-8257-13d63f963dbe",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "5-day maintenance reminder: 68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "message": "Vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd is due for Changing tyres maintenance in 5 days (2026-09-02T05:29:47.231481).",
+      "is_read": true,
+      "created_at": "2026-08-28T12:04:47.608996",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "a9240bf6-921b-45cd-9df7-b8a7f048a45d",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has started.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:29:29.660706",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "5cdf432a-590b-4e14-bbe9-8a8a6c214eff",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip delivered",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has delivered.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:29:32.910696",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "8f507772-ed6e-4308-91ee-0ab8d69a2ca9",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 0d790a49-83f4-4331-a050-db7cfdf27299 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:57:15.660289",
+      "type": "route"
+    },
+    {
+      "notification_id": "99d7daa4-2910-4980-9ddf-c01254dcffee",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Shipment Delivered",
+      "message": "Shipment SHIP002 is now delivered.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:12:21.059431",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "610d9e3c-21ab-406d-bf7d-193072078e50",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has started.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:16:03.164006",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "fb19c837-919f-4da0-a09c-1f80269f71c4",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP003 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:20:00.046944",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "e9876710-7bc4-4e97-b859-0032f53c8600",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "1-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance tomorrow (2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-30T15:03:07.281687",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "68be771f-0cb5-477f-aee0-19eb90da5783",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip delivered",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has delivered.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:17:53.557032",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "a2ada01c-1bde-492c-aaea-cf7d5e64d6d9",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:53:29.046634",
+      "type": "route"
+    },
+    {
+      "notification_id": "74c69938-3854-4c79-97f9-b0ebec1b4cc4",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has started.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:17:57.533700",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "787db2e5-fc60-474f-9e13-f2ac05a2a846",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "title": "Trip started",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has started.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:17:57.533737",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "b33031fd-207b-4da3-8c25-4f86b20ff394",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has started.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:17:57.533752",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "4a0510e3-16cc-4dec-9684-91344d4083eb",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP005 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:18:51.355821",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "16670e89-c1d8-44e3-92f2-91437d06a352",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP005 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:18:51.355898",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "2ebda2ec-f3bb-412a-9c76-97e11092be47",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP005 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-08-31T12:18:51.355913",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "b881895e-d745-41db-ae54-690ed888c2c6",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-08-31)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": false,
+      "created_at": "2026-08-31T16:00:00.179692",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "0835964c-6e4b-45a1-9d01-944df753ea81",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-09-01)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": false,
+      "created_at": "2026-09-01T05:52:30.462618",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "198ee973-aca7-4580-97ad-58dcc7818ac6",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:53:29.047131",
+      "type": "route"
+    },
+    {
+      "notification_id": "870a2f85-b869-4e82-958b-ecb34b4abd2f",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "1-day maintenance reminder: 68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "message": "Vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd is due for Changing tyres maintenance tomorrow (2026-09-02T05:29:47.231481).",
+      "is_read": false,
+      "created_at": "2026-09-01T05:52:30.462636",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "c51d7363-0313-4a0f-b49f-ec91cdecc968",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Trip delivered",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has delivered.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:29:32.910730",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "43600f66-e517-4129-aaa8-497b272eed55",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Shipment Delivered",
+      "message": "Shipment SHIP002 is now delivered.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:12:21.059465",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "c262ff77-2c55-49ab-9189-5550cfe26a49",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip delivered",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-01T14:46:06.277859",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "d7c207f1-0d0c-4b61-8858-be207d86343f",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "title": "Trip delivered",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-01T14:46:06.277914",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "dd17be25-6023-47cb-9e4c-b73b9b4af697",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip delivered",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-01T14:46:06.277935",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "09e26acc-be89-47a5-92ca-a7b0b969152a",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 has been resolved.",
+      "is_read": false,
+      "created_at": "2026-09-01T14:49:32.607668",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "efc35d81-59bf-45a8-bf1c-467f7aaef5d8",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Trip started",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has started.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:16:03.164039",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "e97f7d92-d75e-40df-8f25-d6433498aaba",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has started.",
+      "is_read": false,
+      "created_at": "2026-09-01T14:53:56.512100",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "bc7a6069-054b-493d-bd96-7f126b3df693",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP003 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:20:00.046976",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "b2538d0e-0f47-40ea-92c7-0f2f92fc0781",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "1-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance tomorrow (2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-30T15:03:07.281646",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "7cd719c5-14d0-495d-99ed-658c6cbe1496",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has started.",
+      "is_read": false,
+      "created_at": "2026-09-01T14:53:56.512179",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "25caad3a-8562-489b-bab8-b74238942be7",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "5-day maintenance reminder: 68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "message": "Vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd is due for Changing tyres maintenance in 5 days (2026-09-02T05:29:47.231481).",
+      "is_read": true,
+      "created_at": "2026-08-28T12:04:47.608999",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "c3a0a9ff-c244-4e19-8981-e0da71ca63c1",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has started.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:29:29.660582",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "fe7b5f74-cbf1-4c81-987c-1607a394aeb1",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip delivered",
+      "message": "Trip 9ba7b7b8-8d0a-40b5-bbbe-c38d9408f851 has delivered.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:29:32.910606",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "207d8dd9-0ee6-4560-8939-1ddd59072529",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 0d790a49-83f4-4331-a050-db7cfdf27299 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-08-28T12:57:15.660316",
+      "type": "route"
+    },
+    {
+      "notification_id": "da80e2f5-46e9-45ae-82f5-5f08f7183ce1",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip delivered",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has delivered.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:17:53.557011",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "184c4de0-9f4a-4996-8aca-91c68a58714b",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has started.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:17:57.533721",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "fc13cd06-1e85-4f5b-9e18-cf56957e29ca",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP005 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:18:51.355879",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "b90eb016-a4fc-4042-a290-5d0c7a868b0f",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-08-31)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-31T16:00:00.179699",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "b3cae28b-207b-4047-a5de-d57393f72d65",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-09-01)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-09-01T05:52:30.462626",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "0a38e5fb-6e6b-4aa5-9abb-24c59fe1970c",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "1-day maintenance reminder: 68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "message": "Vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd is due for Changing tyres maintenance tomorrow (2026-09-02T05:29:47.231481).",
+      "is_read": true,
+      "created_at": "2026-09-01T05:52:30.462640",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "094a71f7-451f-4476-9ecf-cbb52a687946",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip delivered",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:46:06.277888",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "df0a09b3-52e8-4aba-8b53-27f110aef882",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 has been resolved.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:49:32.607701",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "8dc2f2bc-5c22-43a3-8555-e3912c8fe041",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Trip delivered",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has delivered.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:17:53.557047",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "6bf56ee8-ee6a-49f0-a348-4d5d6a9e1ddb",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:53:29.047039",
+      "type": "route"
+    },
+    {
+      "notification_id": "8358da5f-1aaf-42f2-a012-c979cbcdfb52",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:53:29.046926",
+      "type": "route"
+    },
+    {
+      "notification_id": "711270a6-37b0-4d10-96d3-667c849a2ff2",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "5-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance in 5 days (2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-28T13:00:00.131569",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "a0156c9c-2065-4eb0-9d55-4b4d6b5dc83c",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Shipment Delivered",
+      "message": "Shipment SHIP002 is now delivered.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:12:21.059333",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "c9e33401-01f7-4d12-a025-6055129788fa",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has started.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:16:03.163894",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "1e58e7eb-0a97-44c7-9d0a-216d7d52e48e",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP003 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-08-29T16:20:00.046808",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "d29563d3-fe1a-49e1-9a83-10e430b45a32",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "1-day maintenance reminder: 055480bd-4156-4829-8b88-5aa4b2a8170d",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 is due for servicing maintenance tomorrow (2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-30T15:03:07.281691",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "a3e131d4-7b2a-4c11-9b54-66dc73dbe1db",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip delivered",
+      "message": "Trip 0d790a49-83f4-4331-a050-db7cfdf27299 has delivered.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:17:53.556756",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "42e35309-ce1c-49e5-9fa1-18214f71ba21",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has started.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:17:57.533611",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "0802c2b5-6281-4f3d-93e7-a65e62dba892",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP005 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-08-31T12:18:51.352988",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "8735ebfc-ed7c-4a0d-b5ba-6df558c690f6",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-08-31)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-31T16:00:00.179704",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "a954740e-de36-4e05-8946-5825be5e6deb",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-09-01)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-09-01T05:52:30.462631",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "fd13f9f9-112f-45a1-8cd2-d7386a90e39a",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "1-day maintenance reminder: 68049d4b-f0af-47e4-b43b-63b15e6a5951",
+      "message": "Vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd is due for Changing tyres maintenance tomorrow (2026-09-02T05:29:47.231481).",
+      "is_read": true,
+      "created_at": "2026-09-01T05:52:30.462644",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "c5f81352-3f3e-4cc6-bea1-cba4733172ec",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip delivered",
+      "message": "Trip e0178854-739f-48c7-8403-d4e2fcf5d8ab has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:46:06.277775",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "025fda05-cd54-4f55-a01e-8fa35e1e5f6f",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 has been resolved.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:49:32.607728",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "f7df2f5a-f82e-45a9-92c4-d1a401d1ca13",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has started.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:53:56.512165",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "40d8cbf4-0bcf-42d9-9ea6-26859dbcaa41",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip started",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has started.",
+      "is_read": false,
+      "created_at": "2026-09-02T12:14:34.724870",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "39d7e855-ccbd-4dd4-a26b-6eb8fcf331ae",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "title": "Trip started",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has started.",
+      "is_read": false,
+      "created_at": "2026-09-02T12:14:34.724963",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "4a079d81-ed00-447e-8239-eb9a42ca85ce",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip started",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has started.",
+      "is_read": false,
+      "created_at": "2026-09-02T12:14:34.724997",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "a6f73c41-6dd9-4978-91c0-7229d8c0f549",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Trip delivered",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-02T12:14:37.254088",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "e20bb659-fd47-417c-85be-40c05e0d757f",
+      "user_id": "676cf171-d65a-47bd-bfda-fdcef73439cc",
+      "title": "Trip delivered",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-02T12:14:37.254174",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "7a0a0a49-9b11-43e6-9778-a11ab58a14cb",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Trip delivered",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has delivered.",
+      "is_read": false,
+      "created_at": "2026-09-02T12:14:37.254203",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "3127ec85-ec24-43d6-adc8-70fa9170f2be",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has started.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:53:56.512148",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "28d62ae4-9bfd-45a7-a72e-7a4e5b3e071c",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip started",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has started.",
+      "is_read": true,
+      "created_at": "2026-09-02T12:14:34.724927",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "2641d837-7b31-45fd-a167-df379ff73b88",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Trip delivered",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-02T12:14:37.254138",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "ebabf03f-e141-451a-b8dd-2027109d104b",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:58:56.144596",
+      "type": "route"
+    },
+    {
+      "notification_id": "f63bef46-cb4b-4ef5-ab84-bebcc45a2e30",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T14:58:56.144866",
+      "type": "route"
+    },
+    {
+      "notification_id": "6dcb6112-e3ab-4476-8e4c-2da25a981a9e",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T15:13:45.957011",
+      "type": "route"
+    },
+    {
+      "notification_id": "d1d2ce0a-40ab-4922-8bc0-29d2e1ffd067",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": false,
+      "created_at": "2026-09-02T15:13:45.957672",
+      "type": "route"
+    },
+    {
+      "notification_id": "a9c666fe-8856-4de0-9ff2-22e1ed899604",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-08-31)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-08-31T16:00:00.179648",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "533e2ae2-72d4-4fc1-9388-c8561faff35c",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Due maintenance: 055480bd-4156-4829-8b88-5aa4b2a8170d (2026-09-01)",
+      "message": "Vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 maintenance for servicing is overdue (due 2026-08-31T15:01:07.315234).",
+      "is_read": true,
+      "created_at": "2026-09-01T05:52:30.462579",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "6770f940-2953-4be6-bd3f-e9bdb52aa467",
+      "user_id": "c0d7885a-11cc-4dad-a5ba-c2d964b3a51d",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle b84072f3-0a48-4973-aa6e-b51be31b1b79 has been resolved.",
+      "is_read": true,
+      "created_at": "2026-09-01T14:49:32.607584",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "95448ae4-37f6-4536-88fa-acfb73ee4283",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has started.",
+      "is_read": true,
+      "created_at": "2026-09-02T12:14:34.724691",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "6b843947-9d16-4fad-936b-332df2f7f682",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip delivered",
+      "message": "Trip ab2a769c-6f11-4f08-b078-ca01b3f08dff has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-02T12:14:37.253978",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "ac2dcf1c-404c-4a1b-8bad-d7599ef29c8a",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:58:56.144806",
+      "type": "route"
+    },
+    {
+      "notification_id": "b2f5d44c-feb4-4bff-b62d-bf46758c01b2",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T15:13:45.957624",
+      "type": "route"
+    },
+    {
+      "notification_id": "41cb74b2-8260-4f9e-ba65-ac8aed58af5a",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP007 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:10:00.308357",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "c26dffed-cff2-4384-beca-f93031fddafb",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP007 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:10:00.308620",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "8f2c9aa9-de8a-426b-b861-682903dab576",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd has been resolved.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:12:19.659885",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "7ce925be-0df1-4592-a88b-0a99924e60a8",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T14:58:56.144737",
+      "type": "route"
+    },
+    {
+      "notification_id": "3e2a17e3-888e-4382-8e0c-bcf27c81375a",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 13ff480c-fb98-4b61-be95-901e52a68023 was recalculated using Shortest Route.",
+      "is_read": true,
+      "created_at": "2026-09-02T15:13:45.957567",
+      "type": "route"
+    },
+    {
+      "notification_id": "4f1ce5d1-8c9d-4722-b81c-149138fd504e",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-05T13:29:11.451284",
+      "type": "route"
+    },
+    {
+      "notification_id": "8df1ddb1-74d1-497c-ac7d-db92ba0d485b",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "5-day maintenance reminder: 233928dc-762b-4ee4-9d1d-e5118cce3545",
+      "message": "Vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32 is due for Break Failure maintenance in 5 days (2026-09-10T18:42:00).",
+      "is_read": false,
+      "created_at": "2026-09-06T05:01:29.910989",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "7a4309fe-00bd-4ecb-960a-22b5ad39e193",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP008 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-09-06T13:20:00.052247",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "052b96b5-9a67-4e53-b9fb-da868dd66970",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP008 has been delayed after 24 hours in transit.",
+      "is_read": false,
+      "created_at": "2026-09-06T13:20:00.054017",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "7048902f-af70-49b2-a974-412de9684458",
+      "user_id": "bb493577-cc3c-4b49-b8f3-98ccd4fb464d",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-07T05:40:50.068649",
+      "type": "route"
+    },
+    {
+      "notification_id": "bda6188f-83da-41a4-9fd7-80d27f62ad06",
+      "user_id": "b43b5ce8-f3b4-49a3-be5b-e2da2541764e",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": false,
+      "created_at": "2026-09-07T05:40:50.068881",
+      "type": "route"
+    },
+    {
+      "notification_id": "b19c9fd8-595e-4400-bd6d-5bee5efcc019",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip delivered",
+      "message": "Trip 13ff480c-fb98-4b61-be95-901e52a68023 has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:05:41.416146",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "f9d17916-039c-4754-b4d7-ff2a7409852c",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip delivered",
+      "message": "Trip f98780fe-763c-4cb2-a3fc-e68e0055c30e has delivered.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:10:42.619689",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "55c8ff61-d73e-4e0a-86f8-76846d059b6a",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Maintenance scheduled",
+      "message": "Break Failure maintenance is scheduled for vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:13:08.043828",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "8de10e97-6516-48d7-9ab7-39550e1cad53",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Trip started",
+      "message": "Trip 2b178a09-ce2c-424a-89fb-5f87d3436539 has started.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:14:06.210679",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "98f0d394-9eb1-46fe-8411-a4ca93ce52f4",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:24:45.695114",
+      "type": "route"
+    },
+    {
+      "notification_id": "be822f0b-b56e-4876-963c-633307021c8a",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:28:47.241684",
+      "type": "route"
+    },
+    {
+      "notification_id": "e7b2ed58-e8c6-4dde-8ea9-f234d66cd267",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:29:05.069714",
+      "type": "route"
+    },
+    {
+      "notification_id": "ad37665b-684b-4d97-9aef-13ffb0fa501f",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:29:11.451270",
+      "type": "route"
+    },
+    {
+      "notification_id": "f85d26a8-ccb9-4db6-87a2-9e8006eaff73",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP007 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:10:00.308605",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "1a536b3a-28e5-43ee-9875-76166a8934a4",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd has been resolved.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:12:19.659962",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "17a6b62a-e3f2-46bb-8d6f-d33c87a1b203",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "5-day maintenance reminder: 233928dc-762b-4ee4-9d1d-e5118cce3545",
+      "message": "Vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32 is due for Break Failure maintenance in 5 days (2026-09-10T18:42:00).",
+      "is_read": true,
+      "created_at": "2026-09-06T05:01:29.911023",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "47423b2b-9d50-4f56-aaa8-28a20bd5fff3",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP008 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-09-06T13:20:00.053999",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "ffbfba15-fbae-4046-9bff-4272834fac95",
+      "user_id": "d3faa1bd-5b40-4e14-bd47-227d9f34f689",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-07T05:40:50.068864",
+      "type": "route"
+    },
+    {
+      "notification_id": "0b23be55-8aad-4ac8-b62c-a7b9991f246d",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:28:47.241641",
+      "type": "route"
+    },
+    {
+      "notification_id": "8a1f25ff-c20e-41f7-a6de-e0b818ad09c6",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:29:05.069695",
+      "type": "route"
+    },
+    {
+      "notification_id": "5fd25865-4a85-422a-accd-c662889527d6",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:29:11.451250",
+      "type": "route"
+    },
+    {
+      "notification_id": "b2649c53-04cf-4453-a6c1-d97605f83ca8",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP007 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:10:00.308568",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "701f2242-7806-4027-a24b-e4ac9ab2ab4b",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Maintenance scheduled",
+      "message": "Maintenance for vehicle 97f9f879-0468-480c-bc9c-c38d79d004fd has been resolved.",
+      "is_read": true,
+      "created_at": "2026-09-05T13:12:19.659944",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "7328245a-e6af-423c-9951-927081dbcd95",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "5-day maintenance reminder: 233928dc-762b-4ee4-9d1d-e5118cce3545",
+      "message": "Vehicle 9c23be6e-e1e4-48d3-b8d2-76be0456af32 is due for Break Failure maintenance in 5 days (2026-09-10T18:42:00).",
+      "is_read": true,
+      "created_at": "2026-09-06T05:01:29.911018",
+      "type": "maintenance"
+    },
+    {
+      "notification_id": "bd52aaa6-6679-4c4e-814e-0bf5dfae6539",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Shipment delayed",
+      "message": "Shipment SHIP008 has been delayed after 24 hours in transit.",
+      "is_read": true,
+      "created_at": "2026-09-06T13:20:00.053964",
+      "type": "shipment"
+    },
+    {
+      "notification_id": "aa7b1205-42c1-4ebf-9bfa-b65a306ea071",
+      "user_id": "670871bb-6e48-431e-ae05-1b56663c0a7b",
+      "title": "Route recalculated",
+      "message": "Route for trip 2b178a09-ce2c-424a-89fb-5f87d3436539 was recalculated using Fastest Route.",
+      "is_read": true,
+      "created_at": "2026-09-07T05:40:50.068834",
+      "type": "route"
+    }
+  ]
+}

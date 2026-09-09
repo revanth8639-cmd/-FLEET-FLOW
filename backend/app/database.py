@@ -9,7 +9,13 @@ load_dotenv()
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 if not DATABASE_URL:
-    if os.getenv("VERCEL") or os.getenv("AWS_LAMBDA_FUNCTION_NAME"):
+    is_serverless = bool(
+        os.getenv("VERCEL")
+        or os.getenv("VERCEL_ENV")
+        or os.getenv("AWS_LAMBDA_FUNCTION_NAME")
+        or not os.access(".", os.W_OK)
+    )
+    if is_serverless:
         tmp_db = os.path.join(tempfile.gettempdir(), "fleetflow.db")
         DATABASE_URL = f"sqlite:///{tmp_db}"
     else:
