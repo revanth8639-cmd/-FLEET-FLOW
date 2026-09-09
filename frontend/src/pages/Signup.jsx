@@ -34,11 +34,16 @@ export default function Signup() {
     }
 
     try {
-      await api.post("/auth/send-otp", {
+      const res = await api.post("/auth/send-otp", {
         email: form.email,
       });
 
-      alert("OTP sent to your email.");
+      if (res.data?.otp) {
+        setOtp(res.data.otp);
+        alert(`OTP Generated: ${res.data.otp}\n(Auto-filled for testing since email service is not configured)`);
+      } else {
+        alert("OTP sent to your email.");
+      }
       setShowOtp(true);
     } catch (err) {
       alert(

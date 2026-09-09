@@ -53,13 +53,6 @@ export function AuthProvider({ children }) {
       return res.data;
     } catch (err) {
       console.error("Login Failed:", err.response?.data);
-
-      alert(
-        JSON.stringify(
-          err.response?.data || err.message
-        )
-      );
-
       throw err;
     }
   };

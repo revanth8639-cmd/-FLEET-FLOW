@@ -30,6 +30,8 @@ app = FastAPI(title="FleetFlow API")
 
 try:
     Base.metadata.create_all(bind=engine)
+    from app.seed import seed_default_users
+    seed_default_users()
 except Exception as exc:
     print(f"Database initialization deferred: {exc}")
 
