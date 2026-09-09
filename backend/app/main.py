@@ -27,7 +27,11 @@ print("GPS Tracking module imported")
 
 
 app = FastAPI(title="FleetFlow API")
-Base.metadata.create_all(bind=engine)
+
+try:
+    Base.metadata.create_all(bind=engine)
+except Exception as exc:
+    print(f"Database initialization deferred: {exc}")
 
 # =========================
 # CORS CONFIGURATION
@@ -50,6 +54,7 @@ app.add_middleware(
         "http://127.0.0.1:5177",
         "http://127.0.0.1:5178",
     ],
+    allow_origin_regex=r"^https://.*\.vercel\.app$",
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
